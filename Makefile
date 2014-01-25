@@ -8,8 +8,9 @@ all: base64
 
 clean:
 	rm -f *~
-	$(snow2) uninstall '(seth base64)'
-	rm -rf seth
+	rm -rf seth snow
+#	$(snow2) uninstall '(seth base64)'
+
 
 base64:
 	$(snow2) install '(seth base64)'

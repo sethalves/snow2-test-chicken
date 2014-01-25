@@ -8,8 +8,8 @@ exec csi -s $0 "$@"
 ;; (import chicken scheme)
 (use r7rs)
 
-(include "seth/bytevector.sld")
-(import (seth bytevector))
+(include "snow/bytevector.sld")
+(import (snow bytevector))
 (include "seth/base64.sld")
 (import (seth base64))
 
